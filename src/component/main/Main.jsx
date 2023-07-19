@@ -132,7 +132,6 @@ export function Main() {
                 <Card />
 
 
-
                 
             </div>
         </div>
