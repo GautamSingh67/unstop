@@ -1,0 +1,123 @@
+
+.main {
+    margin: 0rem 1rem;
+    background-color: #FFF;
+}
+
+.header {
+    display: flex;
+    padding-top: 0.7rem;
+}
+
+.header span {
+    font-weight: 600;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.headerTitle1 {
+    padding: 0.8rem 1rem;
+    color: #1C4980;
+    font-size: 1.25rem;
+    font-style: normal;
+    line-height: 140%;
+}
+
+.headerTitle2 {
+    color: #0073E6;
+    font-size: 0.875rem;
+    line-height: normal;
+    border-bottom: 1px solid;
+    padding: 1.3rem;
+}
+.assessmentOverview{
+    padding: 1rem;
+}
+.assessmentTitle{
+    color: #1C4980;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.cardDetail{
+    display: flex;
+    border: 1px solid #00000057;
+    border-radius: 5px;
+}
+.firstCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid rgba(0, 0, 0, 0.221);
+    padding-left: 1.3rem;
+    padding-right: 5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
+.TotalAssessment{
+    color: #1C4980;
+font-family: Inter;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+.number{
+    color:#1C4980;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; 
+}
+.firstContent{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+}
+.canditate{
+    color: #1C4980;
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.totalSize{
+    color: #1C4980;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+position: absolute;
+    margin: 1.4rem -4.5rem
+}
+.whoAtemped{
+    color: #1C4980;
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+position: absolute;
+    margin: 1.4rem -3.5rem;
+}
+
+.myassessment{
+    margin-left: 1rem;
+    color:#1C4980;
+font-family: Inter;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.assessmentCard{
+    display: flex;
+    gap: 1rem;
+}

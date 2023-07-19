@@ -1,0 +1,40 @@
+.navbar {
+    display: inline-flex;
+    height: 62rem;
+    padding: 1rem 1.25rem 1.25rem 1.875rem;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #FFF;
+}
+
+.dashbord {
+    display: flex;
+    width: 5.625rem;
+    height: 4.375rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0.8rem
+}
+.adminText{
+    color: #D63500;
+    border-radius: 0.7rem;
+    background-color: #fbe6e0;
+    padding: 0rem 0.4rem;
+    border: 1px solid;
+    margin-top: 1rem;
+}
+.roundStatus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
