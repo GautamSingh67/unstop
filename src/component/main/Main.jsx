@@ -131,8 +131,7 @@ export function Main() {
                 <Card />
                 <Card />
 
-
-                
+                             
             </div>
         </div>
     )
