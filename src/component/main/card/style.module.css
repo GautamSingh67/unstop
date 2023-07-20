@@ -119,6 +119,7 @@ line-height: 140%;
 }
 .assessmentCard{
     display: flex;
+    margin-right: 1rem
 }
 .assessmentSubCard{
     display: flex;

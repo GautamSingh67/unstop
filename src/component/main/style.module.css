@@ -130,7 +130,13 @@
 .assessmentCard {
     display: flex;
     gap: 1.875rem;
-    margin-top: 1rem
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+.uniqueLink{
+    margin-left: 1rem;
+   margin-right: 4rem;
 }
 
 @media(max-width:500px) {
@@ -177,6 +183,7 @@
 
     .assessmentOverview {
         padding: 0px;
+        margin: 0rem 1rem;
     }
 
     .assessmentCard {
@@ -185,11 +192,45 @@
         padding: 1.875rem 0rem;
         margin-right: 1rem;
     }
-    
+    .firstCard{
+        padding-right: 0rem;
+    }
+    .uniqueLink{
+        margin-left: 1rem;
+       margin-right: 0rem;
+    }
+    .firstContent{
+        gap: 0rem;
+    }
+
 }
 
 @media(min-width:501px) {
     .svgres {
         display: none;
+    }
+
+    .assessmentSection {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1.1rem;
+    }
+    .assessmentLogo{
+        display: none;
+    }
+}
+
+@media(max-width:500px) {
+    .assessmentSection {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1.1rem;
+    }
+
+    .assessmentLogo {
+        display: flex;
+        gap: 0.8rem;
+        justify-content: center;
+        align-items: center;
     }
 }
