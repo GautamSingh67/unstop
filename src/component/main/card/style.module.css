@@ -207,3 +207,23 @@ line-height: 140%;
     position: absolute;
     margin-top: 0.6rem;
 }
+@media(max-width:500px){
+    .content1{
+        display: flex;
+    gap: 7rem;
+    margin-top: 1rem
+    }
+    .svgdot{
+        width: 20px;
+    }
+    .svgdot1{
+        width: 313px;
+    }
+    .subContent2{
+        gap: 7rem;
+    }
+    .assessmentSubCard{
+        margin-left: 0.9rem;
+    }
+
+}

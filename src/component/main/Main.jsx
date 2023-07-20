@@ -6,9 +6,18 @@ export function Main() {
     return (
         <div className={style['main']}>
             <header className={style['header']}>
-
+                <svg className={style['svgres']} style={{marginTop:'0.2rem', marginLeft:'0.3rem'}} xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 30 30" fill="none">
+                    <g clip-path="url(#clip0_0_956)">
+                        <path d="M18.75 22.5H3.75V20H18.75V22.5ZM26.25 7.5V10H3.75V7.5H26.25ZM18.75 16.25H3.75V13.75H18.75V16.25Z" fill="#1C4980" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_0_956">
+                            <rect width="30" height="30" fill="white" transform="matrix(-1 0 0 1 30 0)" />
+                        </clipPath>
+                    </defs>
+                </svg>
                 <span className={style['headerTitle1']}>Assessment</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="2" height="46" viewBox="0 0 2 46" fill="none">
+                <svg className={style['svgHeader']} xmlns="http://www.w3.org/2000/svg" width="2" height="46" viewBox="0 0 2 46" fill="none">
                     <path d="M1 0V46" stroke="#DADCE0" />
                 </svg>
                 <span className={style['headerTitle2']}>My Assessments</span>
@@ -127,11 +136,11 @@ export function Main() {
             </div>
 
             <div className={style['assessmentCard']}>
-                <Model/>
+                <Model />
                 <Card />
                 <Card />
 
-                             
+
             </div>
         </div>
     )

@@ -90,3 +90,8 @@ select {
     font-weight: 500;
     line-height: normal;
 }
+@media(max-width:500px){
+    .cardContent{
+        padding: 1rem 4.66rem;
+    }
+}
