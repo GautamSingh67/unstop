@@ -122,6 +122,7 @@ line-height: 140%;
 }
 .assessmentSubCard{
     display: flex;
+    padding: 0rem 1rem;
 }
 .assessmentSubCard{
     display: flex;
@@ -157,7 +158,7 @@ line-height: normal;
 }
 .content1{
     display: flex;
-    gap: 9.5rem;
+    gap: 11.5rem;
     margin-top: 1rem;
 }
 .subcontent1{
@@ -169,7 +170,7 @@ line-height: normal;
 .subContent2{
     display: flex;
     justify-content: flex-end;
-    gap: 9rem
+    gap: 11.5rem
 }
 .subContent3{
     display: flex;

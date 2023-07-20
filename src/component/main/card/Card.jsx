@@ -40,7 +40,7 @@ export function Card() {
                     </div>
 
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="356" height="2" viewBox="0 0 356 2" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="370" height="2" viewBox="0 0 356 2" fill="none">
                         <path d="M0 1H356" stroke="#DADCE0" stroke-dasharray="3 3" />
                     </svg>
                     <div className={style['subContent2']}>

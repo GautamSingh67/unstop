@@ -119,5 +119,6 @@ line-height: 140%;
 }
 .assessmentCard{
     display: flex;
-    gap: 1rem;
+    gap: 1.875rem;
+    margin-top: 1rem
 }
